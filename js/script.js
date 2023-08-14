@@ -5,7 +5,7 @@ const logo = document.querySelector("header .logo img");
 const mainWords = ["graphics", "design", "development", "marketing", "creative"];
 
 const changeLogo = e => {
-  const mdWindow = window.matchMedia("(min-width: 768px)");
+  const mdWindow = window.matchMedia("(min-width: 992px)");
 
   if (mdWindow.matches) {
     logo.setAttribute("src", "img/308brandlogofull.svg");
