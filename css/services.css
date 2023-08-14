@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'services';
+  src:  url('fonts/services.eot?k070ii');
+  src:  url('fonts/services.eot?k070ii#iefix') format('embedded-opentype'),
+    url('fonts/services.ttf?k070ii') format('truetype'),
+    url('fonts/services.woff?k070ii') format('woff'),
+    url('fonts/services.svg?k070ii#services') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="services-"], [class*=" services-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'services' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.services-branding:before {
+  content: "\e900";
+}
+.services-graphic-design:before {
+  content: "\e901";
+}
+.services-megaphone-right:before {
+  content: "\e902";
+}
+.services-seo:before {
+  content: "\e903";
+}
+.services-web-development:before {
+  content: "\e904";
+}
