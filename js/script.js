@@ -40,7 +40,6 @@ const changeWords = () => {
 
   setInterval(() => {
     if (mainWords.length > index) {
-      console.log(index);
       span.textContent = mainWords[index];
       index = index + 1;
     } else {
@@ -51,5 +50,5 @@ const changeWords = () => {
 };
 
 window.addEventListener("DOMContentLoaded", changeLogo);
-window.addEventListener("DOMContentLoaded", changeWords);
+// window.addEventListener("DOMContentLoaded", changeWords);
 window.addEventListener("resize", changeLogo);
