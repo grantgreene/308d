@@ -36,7 +36,7 @@ window.addEventListener("scroll", e => {
 
 const changeWords = () => {
   let index = 0;
-  const span = document.querySelector(".change-word");
+  const span = document.querySelector(".main-content h1 span");
 
   setInterval(() => {
     if (mainWords.length > index) {
