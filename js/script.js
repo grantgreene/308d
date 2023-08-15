@@ -50,5 +50,5 @@ const changeWords = () => {
 };
 
 window.addEventListener("DOMContentLoaded", changeLogo);
-// window.addEventListener("DOMContentLoaded", changeWords);
+window.addEventListener("DOMContentLoaded", changeWords);
 window.addEventListener("resize", changeLogo);
